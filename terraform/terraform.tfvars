@@ -1,0 +1,7 @@
+project_id                  = "gcp-financial-pipeline"
+region                      = "asia-south1"
+zone                        = "asia-south1-a"
+service_account_name        = "financial-pipeline-sa"
+bucket_name                 = "financial-pipeline-staging"
+pubsub_topic_name           = "stock-prices-topic"
+pubsub_subscription_name    = "stock-prices-sub"
